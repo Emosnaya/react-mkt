@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background: rgb(249,234,213);
+    background: linear-gradient(180deg, rgba(249,234,213,1) 18%, rgba(179,162,206,1) 86%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.custom-placeholder::placeholder {
+    color: #ffff; /* Cambia este color al que desees */
+}
